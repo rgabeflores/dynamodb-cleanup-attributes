@@ -1,0 +1,23 @@
+{
+  "name": "dynamodb-attribute-cleanup",
+  "version": "1.0.0",
+  "description": "Script to remove unused attributes from DynamoDB table items",
+  "main": "dynamodb_cleanup_script.js",
+  "scripts": {
+    "start": "node dynamodb_cleanup_script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.450.0",
+    "@aws-sdk/util-dynamodb": "^3.450.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "dynamodb",
+    "aws",
+    "cleanup",
+    "attributes"
+  ],
+  "author": "",
+  "license": "MIT"
+}
